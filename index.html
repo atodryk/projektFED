@@ -4,11 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link type="text/css" rel="stylesheet" href="/css/main.css"/>
+    <title>CV Adam Todryk</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&amp;subset=latin-ext" rel="stylesheet"> 
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
-<h1>HELLO WORLD</h1>    
-<script type="text/javascript" src="/js/main.js"></script>
+<div class="sheet">
+<div class="left-top">
+<img src="img/foto1.jpg" alt="profilowe" class="profilowe">
+<h1>Adam Todryk</h1>
+<h3>Front-End Developer</h3>
+</div>
+<div class="left-bot">
+        <h2>Coding skills</h2>
+        <span>HTML</span>
+        <div class="Bar" id="s1">
+            <div class="MyBar cs1">40%</div>
+        </div>
+        <span>CSS</span>
+        <div class="Bar" id="s2">
+            <div class="MyBar cs2">30%</div>
+        </div>
+        <span>JavaScript</span>
+        <div class="Bar" id="s3">
+            <div class="MyBar cs3">60%</div>
+        </div>
+</div>
+<div class="right">
+<h2>Życiorys</h2>
+<p class="zyciorys">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus nulla. Ut efficitur est augue. Nam eu consectetur arcu. Nullam vehicula rutrum sodales. Morbi a finibus quam. Integer luctus. </p>
+<table class= "tab2">
+    <caption><h2>Doświadczenie</h2></caption>
+    <thead>
+    <tr>   
+        <td>Od kiedy</td>
+        <td>Do kiedy</td>
+        <td>Firma</td>
+        <td>Stanowisko</td>
+    </tr>
+    </thead>
+<tbody>
+<tr>
+        <td>02.2014r</td>
+        <td>11.2014r</td>
+        <td>ANIMEX</td>
+        <td>Specjalista ds. Analiz Kosztów</td>
+</tr>
+<tr>
+        <td>07.2015r.</td>
+        <td>06.2016r.</td>
+        <td>Bank Pekao S.A.</td>
+        <td>Specjalista ds. Sprzedaży</td>
+</tr>
+<tr>
+        <td>05.2016r</td>
+        <td>-</td>
+        <td>Sklep "Adaś"</td>
+        <td>właściciel</td>
+</tr>
+</tbody>
+</table>
+<h2>Moje hobby</h2>
+<ul class="hobby-list">
+    <li>Komputery</li>
+    <li>Sport</li>
+    <li>Motoryzacja</li>
+    <li>Statystyka</li>
+</ul>
+<h2>Skontaktuj się ze mną</h2>
+<form method="GET" name="contact-form" id="cf">
+<table class= "tab1">
+    <tr>
+        <td> <label for="firstname">Imię</label></td>
+        <td><input type="text" placeholder="Imie" name= "Firstname" id="firstname"></td>
+    </tr>
+    <tr>
+            <td><label for="lastname">Nazwisko</label></td>
+            <td><input type="text" placeholder="Nazwisko" name="Lastname" id="lastname"></td>
+    </tr>
+    <tr>
+            <td><label for="telephone">Telefon</label></td>
+            <td><input type ="tel" maxlength="9" placeholder="Nr telefonu" name="telephone" id="telephone"></td>
+    </tr>
+    <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" placeholder="e-mail" name="e-mail" id="email"></td>
+    </tr>
+</table>   
+    <button type="submit" class="btn">wyślij</button>
+</form>
+</div>
+</div>
+       
+<script src="js/main.js"></script>
 </body>
 </html>

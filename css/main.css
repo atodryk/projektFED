@@ -1,3 +1,167 @@
 body {
-    background: tomato;
+    background: linear-gradient(green, black);
+    background-repeat: repeat-x;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sheet{
+    width: 1056px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    position: relative;
+}
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+}
+h2{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;    
+}
+h3 {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -30px;
+    color: green;
+}
+p {
+    margin-left: 20px;
+    font-size: 14px;
+}
+table, th, td{
+    text-align: left;
+}
+.tab1{
+    margin-left: 40px;
+    line-height: 30px;
+}
+.tab2{
+    background-color: black;
+}
+.tab2 th{
+    background-color: green;
+}
+.tab2, .tab2 th,.tab2 td{
+    width: 500px;
+    margin-left: 40px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+label {
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+form {
+    font-weight: 700;
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: black;
+}
+.btn{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    margin-left: 245px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: green;
+}
+.left-top{
+    width: 424px;
+    height: 500px;
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.profilowe{
+    width: 424px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.left-bot{
+    width: 384px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.right{
+    background: linear-gradient(to right, whitesmoke,white);
+    width: 592px;
+    height: 900px;
+    padding: 50px 20px 50px 20px;
+    position: absolute;
+    top: 0px;
+    left: 424px;
+}
+li {
+    list-style-type: square;
+    width: 50%;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: 2px 2px 2px 2px;
+}
+li:hover{
+    background-color: green;
+}
+.right h1, .right h2, .right h3{
+    color: green;
+}
+
+.Bar {
+    width: 90%;
+    background-color: green;
+}
+.MyBar{
+    height: 30px;
+    background-color: white;
+    color: black;
+    line-height: 30px;
+}
+.cs1 {
+    width: 40%;
+}
+.cs2{
+    width: 30%;
+}
+.cs3{
+    width: 60%;
+}
+.zyciorys {
+    padding: 20px 50px 20px 50px;
+}
+.left-bot span{
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px; 
 }
